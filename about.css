@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.about-sec1{
+    width: 100%;
+    height: 120vh;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-div1{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: white;
+}
+.about-div1 h1{
+    width: 30%;
+    height: 50px;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00AF91;
+}
+.about-div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    background-color: #00AF91;
+}
+.divlogo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+}
+.divlogo img{
+    width: 35%;
+    height: 90%;
+    object-fit: fill;
+    transition: ease-in-out 0.4s;
+}
+.divlogo img:hover{
+    transform: scale(1.1);
+}
+.divdata {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+.divdata h2{
+    font-size: 2.5vw;
+    margin: 20px 0px 20px 0px;
+    font-weight: 800;
+    color: #F58634;
+}
+.divdata p{
+    font-size: 1em;
+    margin: 20px;
+    font-weight: 200;
+    color: white;
+}
+
+.aboutsection2{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    overflow: hidden;
+}
+.aboutsection2 h2{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00AF91;
+}
+.sec2cards{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.aboutcard {
+    background-color: #00AF91;
+    width: 20%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+}
+.aboutcard p{
+    color: #F58634;
+}
+.aboutcard img{
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px){
+    .about-div1{
+        width: 95%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .divdata p{
+        font-size: 0.9em;
+        margin: 20px;
+        font-weight: 200;
+    }
+}
+
+@media only screen and (max-width: 699px) and (min-width: 350px){
+    .about-div1{
+        width: 95%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .about-div1 h1{
+        width: 30%;
+        height: 50px;
+        font-size: 4.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #00AF91;
+    }
+    .about-div2{
+        width: 90%;
+        height: 80%;
+    }
+    .divdata h2{
+        font-size: 4.5vw;
+        margin: 20px 0px 10px 0px;
+        font-weight: 800;
+    }
+    .divdata p{
+        font-size: 0.65em;
+        margin: 20px;
+        font-weight: 200;
+    }
+    .divlogo img{
+        width: 45%;
+    }
+    .aboutsection2{
+        width: 100%;
+        height: 160vh;
+        overflow: hidden;
+    }
+    .aboutsection2 h2{
+        width: 80%;
+    }
+    .sec2cards{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .aboutcard {
+        width: 60%;
+        height: 40%;
+    }
+    
+}
